@@ -1,7 +1,11 @@
-function HolaMundo() {
+import TaskList from './TaskList'
+
+function App() {
   return (
-    <div>HolaMundo</div>
+    <div>
+      <TaskList />
+    </div>
   )
 }
 
-export default HolaMundo
+export default App

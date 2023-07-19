@@ -1,8 +1,4 @@
 function TaskCard({ task, deleteTask }) {
-
-  function mostrarAlerta(){
-    
-  }
   return (
     <div>
       <h1>{task.title}</h1>
